@@ -1,5 +1,5 @@
 ﻿html {
-    background-color: #e2e2e2;
+    background-color: #efeeef;
     margin: 0;
     padding: 0;
 }
@@ -22,8 +22,7 @@ a {
     text-decoration: underline;
 }
 
-    a:link, a:visited,
-    a:active, a:hover {
+    a:link, a:visited, a:active, a:hover {
         color: #333;
     }
 
@@ -31,8 +30,7 @@ a {
         background-color: #c7d1d6;
     }
 
-header, footer, hgroup,
-nav, section {
+header, footer, hgroup, nav, section {
     display: block;
 }
 
@@ -58,8 +56,7 @@ mark {
     visibility: hidden;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #000;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -270,13 +267,22 @@ ol.round {
         ol.round li.one {
             background: url("../Images/orderedList1.png") no-repeat;
         }
+        ol.round li.one h5.link {
+            padding: 7px 0;
+        }
 
         ol.round li.two {
             background: url("../Images/orderedList2.png") no-repeat;
         }
+        ol.round li.two h5.link {
+            padding: 7px 0;
+        }
 
         ol.round li.three {
             background: url("../Images/orderedList3.png") no-repeat;
+        }
+        ol.round li.three h5.link {
+            padding: 7px 0;
         }
 
         ol.round li.four {
