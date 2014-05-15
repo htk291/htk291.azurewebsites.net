@@ -1,5 +1,5 @@
-Ôªøhtml {
-    background-color: #efeeef;
+html {
+    background-color: #e2e2e2;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,8 @@ a {
     text-decoration: underline;
 }
 
-    a:link, a:visited, a:active, a:hover {
+    a:link, a:visited,
+    a:active, a:hover {
         color: #333;
     }
 
@@ -30,7 +31,8 @@ a {
         background-color: #c7d1d6;
     }
 
-header, footer, hgroup, nav, section {
+header, footer, hgroup,
+nav, section {
     display: block;
 }
 
@@ -267,23 +269,25 @@ ol.round {
         ol.round li.one {
             background: url("../Images/orderedList1.png") no-repeat;
         }
-        ol.round li.one h5.link {
-            padding: 7px 0;
-        }
+            ol.round li.one h5 {
+                padding: 7px 0;
+            }
 
         ol.round li.two {
             background: url("../Images/orderedList2.png") no-repeat;
         }
-        ol.round li.two h5.link {
-            padding: 7px 0;
-        }
+            ol.round li.two h5 {
+                padding: 7px 0;
+            }
+
 
         ol.round li.three {
             background: url("../Images/orderedList3.png") no-repeat;
         }
-        ol.round li.three h5.link {
-            padding: 7px 0;
-        }
+            ol.round li.three h5 {
+                padding: 7px 0;
+            }
+
 
         ol.round li.four {
             background: url("../Images/orderedList4.png") no-repeat;
@@ -576,11 +580,11 @@ th {
     }
 
     th.asc a:after {
-        content: '‚ñ≤';
+        content: 'Å£';
     }
 
     th.desc a:after {
-        content: '‚ñº';
+        content: 'Å•';
     }
 
 td {
@@ -760,3 +764,4 @@ tr.pager td {
             margin: 0;
         }
 }
+
