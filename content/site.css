@@ -299,6 +299,10 @@ ol.round {
         ol.round li.five {
             background: url("../Images/orderedList5.png") no-repeat;
         }
+            ol.round li.five h5 {
+                padding: 7px 0;
+            }
+
 
         ol.round li.six {
             background: url("../Images/orderedList6.png") no-repeat;
