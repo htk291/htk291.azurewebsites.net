@@ -1,112 +1,153 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
     <head>
-        <meta charset="utf-8" />
-        <title>htk291.azurewebsite.net</title>
-        <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width" />
-        <link href="./content/site.css" rel="stylesheet"/>
+    <title>htk291</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One|Lato' rel='stylesheet' type='text/css'>
+    <style>
+        html, body {
+            margin: 0;
+        }
+        body {
+            font-family: 'Lato', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
+            background: #eee;
+            color: #666;
+        }
+        .wrapper {
+            margin: 0 50px 10px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        h1 {
+            color: #333;
+            font-family: 'Sigmar One', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 30px;
+            letter-spacing: 9px;
+            text-transform: uppercase;
+            margin: 12px 0;
+            left: 4px;
+        }
+        h2 {
+            color: #999;
+            font-weight: normal;
+            font-size: 15px;
+            letter-spacing: .12em;
+            margin-bottom: 30px;
+            left: 3px;
+            position: relative;
+        }
+        p {
+            font-size: 14px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+            transition: color .2s ease;
+        }
+        a:hover {
+            color: #00E676;
+        }
+        .license {
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-42802734-3']);
+        _gaq.push(['_setDomainName', 'htk291.azurewebsite.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
     </head>
     <body>
-        <div id="body">
+        <div class="wrapper">
             <section class="featured">
-                <div class="content-wrapper">
-                    <hgroup class="title">
-                        <h1>htk291.azurewebsite.net</h1>
-                    </hgroup>
+                <div class="title">
+                    <h1>htk291</h1>
+                    <h2>'CANI' - Constant &amp Never Ending Improvement</h2>
                 </div>
             </section>
-
-            <section class="content-wrapper main-content clear-fix">
+            <section class="profile">
                 <h3>PROFILE</h3>
-                <ol class="round">
-                    <li class="one">
-                        <h5>NAME</h5>
-                        Hideaki Takahashi
+                <ol>
+                    <li>
+                        <h4>NAME</h4>
+                        <p>Hideaki Takahashi</p>
                     </li>
-
-                    <li class="two">
-                        <h5>JOB</h5>
-                        Programmer
+                    <li>
+                        <h4>JOB</h4>
+                        <p>Programmer</p>
                     </li>
-
-                    <li class="three">
-                        <h5>INTERESTS</h5>
-                        <a target="_blank" style="text-decoration:none;" href="http://www.takaratomy-arts.co.jp/specials/pripara/">PriPara</a>, Perl, .NET, MS Azure, Vim, Milky Holmes
+                    <li>
+                        <h4>INTERESTS</h4>
+                        <p>Web front-end, React.js, Redux, Perl, .NET, MS Azure, PriPara, Milky Holmes</p>
                     </li>
                 </ol>
             </section>
-
-            <section class="content-wrapper clear-fix">
+            <section class="links">
                 <h3>LINKS</h3>
-                <ol class="round">
-                    <li class="one">
-                        <h5><a target="_blank" href="http://htk291.github.io/">Blog</a></h5>
+                <ol>
+                    <li>
+                        <h5><a target="_blank" href="https://htk291.github.io/">Blog</a></h5>
                     </li>
-
-                    <li class="two">
-                        <h5><a target="_blank" href="https://github.com/htk291">Github</a></h5>
-                    </li>
-
-                    <li class="three">
+                    <li>
                         <h5><a target="_blank" href="https://twitter.com/htk291">Twitter</a></h5>
                     </li>
-
-                    <li class="four">
-                        <h5><a target="_blank" href="http://www.justyo.co/HTK291/">Yo</a></h5>
+                    <li>
+                        <h5><a target="_blank" href="https://github.com/htk291">Github</a></h5>
                     </li>
-
-                    <li class="five">
-                        <h5><a target="_blank" href="http://www.amazon.co.jp/registry/wishlist/23FENJ3ZKY4V9">WishList</a></h5>
+                    <li>
+                        <h5><a target="_blank" href="https://www.amazon.co.jp/registry/wishlist/23FENJ3ZKY4V9">"The" List</a></h5>
                     </li>
                 </ol>
             </section>
-
-            <section class="content-wrapper clear-fix">
+            <section class="products">
                 <h3>PRODUCTS</h3>
-                <ol class="round">
-                    <li class="one">
+                <ol>
+                    <li>
                         <h5><a target="_blank" href="https://github.com/htk291/p5-Acme-PriPara">p5-Acme::PriPara</a></h5>
                     </li>
-                </ol>
-                <ol class="round">
-                    <li class="two">
-                        <h5><a target="_blank" href="http://htk291.github.io/slide/azusa3/#/">AZUSA 3号</a></h5>
+                    <li>
+                        <h5><a target="_blank" href="https://htk291.github.io/slide/azusa3/#/">AZUSA 3号</a></h5>
                     </li>
                 </ol>
             </section>
 
-            <section class="content-wrapper clear-fix">
+            <section class="slides">
                 <h3>SLIDES</h3>
-                <ol class="round">
-                    <li class="one">
-                        <h5><a target="_blank" href="http://htk291.github.io/slide/kichijojipm/01/">2014-10-31 kichijoji.pm #01</a></h5>
+                <ol>
+                    <li>
+                        <h5><a target="_blank" href="https://htk291.github.io/slide/kichijojipm/01/">2014-10-31 @kichijoji.pm #01</a></h5>
                     </li>
-                    <li class="two">
-                        <h5><a target="_blank" href="http://htk291.github.io/slide/kichijojipm/02/">2015-01-16 kichijoji.pm #02</a></h5>
+                    <li>
+                        <h5><a target="_blank" href="https://htk291.github.io/slide/kichijojipm/02/">2015-01-16 @kichijoji.pm #02</a></h5>
                     </li>
-                    <li class="three">
-                        <h5><a target="_blank" href="http://htk291.github.io/slide/perl-entrance/2015/06/#/">2015-03-28 Perl入学式 修了式</a></h5>
+                    <li>
+                        <h5><a target="_blank" href="https://htk291.github.io/slide/perl-entrance/2015/06/#/">2015-03-28 @Perl入学式 修了式</a></h5>
                     </li>
-                    <li class="four">
-                        <h5><a target="_blank" href="http://htk291.github.io/slide/kichijojipm/04/">2015-07-10 kichijoji.pm #04</a></h5>
+                    <li>
+                        <h5><a target="_blank" href="https://htk291.github.io/slide/kichijojipm/04/">2015-07-10 @kichijoji.pm #04</a></h5>
                     </li>
-                    <li class="five">
-                        <h5><a target="_blank" href="http://htk291.github.io/slide/kichijojipm/06/">2016-01-15 kichijoji.pm #06</a></h5>
+                    <li>
+                        <h5><a target="_blank" href="https://htk291.github.io/slide/kichijojipm/06/">2016-01-15 @kichijoji.pm #06</a></h5>
                     </li>
                 </ol>
             </section>
+            <footer>
+                <div class="license">
+                    <p>&copy; 2017 - htk291</p>
+                </div>
+            </footer>
         </div>
-        <footer>
-        <div class="content-wrapper">
-            <div class="float-left">
-                <p>&copy; 2015 - htk291</p>
-            </div>
-        </div>
-        </footer>
-
-        <script src="/scripts/jquery-1.8.2.js"></script>
-        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-42802734-3', 'auto');ga('send', 'pageview');</script>
     </body>
 </html>
-
